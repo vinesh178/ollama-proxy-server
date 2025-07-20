@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  ollama-proxy:
+    build: .
+    container_name: ollama-proxy-server
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434
+    restart: unless-stopped
+    networks:
+      - ollama-network
+
+networks:
+  ollama-network:
+    driver: bridge
