@@ -14,8 +14,8 @@ Browser applications and extensions are subject to strict security policies that
 
 2. **Clone and run**:
    ```bash
-   git clone <your-repo-url>
-   cd ollama-proxy
+   git clone https://github.com/vinesh178/ollama-proxy-server.git
+   cd ollama-proxy-server
    python3 simple_ollama_proxy.py
    ```
 
@@ -25,8 +25,8 @@ Browser applications and extensions are subject to strict security policies that
 
 1. **Using Docker Compose**:
    ```bash
-   git clone <your-repo-url>
-   cd ollama-proxy
+   git clone https://github.com/vinesh178/ollama-proxy-server.git
+   cd ollama-proxy-server
    docker-compose up -d
    ```
 
