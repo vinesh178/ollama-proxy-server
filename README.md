@@ -128,6 +128,17 @@ The proxy:
 
 For streaming endpoints like `/api/generate`, the proxy collects the full response before returning it to ensure compatibility with browser applications that may not handle streaming responses well.
 
+## Disclaimer
+
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
+
+This software is provided for educational and development purposes. Users are solely responsible for:
+- Ensuring compliance with applicable laws and regulations
+- Implementing appropriate security measures for their environment
+- Any consequences arising from the use of this software
+
+The author(s) disclaim all responsibility for how this software is used and any resulting consequences.
+
 ## Contributing
 
 Issues and pull requests welcome! This is a simple tool designed to solve a specific problem - keeping it lightweight and dependency-free is a priority. 
